@@ -1,0 +1,13 @@
+.button{
+    color: white;
+    background: #302176;
+}
+
+.button:hover{
+    color: #302176;
+    background: whitesmoke;
+}
+
+.detailmen{
+    color: #302176;
+}
