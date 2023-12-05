@@ -11,3 +11,12 @@
 .detailmen{
     color: #302176;
 }
+
+.lovebtn{
+    color: red;
+}
+
+.hide{
+    display: none;
+    visibility: hidden;
+}
