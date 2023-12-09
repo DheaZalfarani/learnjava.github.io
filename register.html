@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Masuk</title>
+  <title>Daftar</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   
@@ -43,20 +43,27 @@
    <main id="main" data-aos="fade-in">
     <div class="login-container">
       <div class="login-form">
-        <h2>Masuk ke Akun</h2>
-        <p class="center-text">Yuk, lanjutin belajar kamu di Learn Java!</p>
+        <h2>Pendaftaran Akun</h2>
+        <p class="center-text">Yuk, daftarkan akunmu sekarang juga!</p>
         <form action="#" method="post">
+          <label for="fullname" class="required">Nama Lengkap</label>
+          <input type="text" id="fullname" name="fullname"><br>
           <label for="email" class="required">Email</label>
           <input type="text" id="email" name="email"><br>
           <label for="password" class="required">Password</label>
           <input type="password" id="password" name="password"><br>
-          <a href="#">Lupa Password?</a><br>
-          <button type="submit">Masuk</button><br>
+          <label for="confirm_password" class="required">Konfirmasi Password</label>
+          <input type="password" id="confirm_password" name="confirm_password"><br>
+          <div class="checkbox-container">
+            <input type="checkbox" id="agree" name="agree">
+            <label for="agree">Saya setuju dengan Syarat & Ketentuan dan Kebijakan Privasi</label>
+          </div>
+          <button type="submit">Daftar</button><br>
         </form>
-        <p class="center-text">Belum punya akun? <a href="#">Daftar disini</a></p>
+        <p class="center-text"><a href="#">Masuk disini</a> jika sudah mempunyai akun! </p>
       </div>
       <div class="hero-image">
-        <img src="/assets/img/hero-login.png" alt="">
+        <img src="/assets/img/hero-register.png" alt="">
       </div>
     </div>
   </main>

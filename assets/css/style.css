@@ -1759,6 +1759,7 @@ section {
   width: calc(100% - 20px);
   padding: 10px;
   margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #1A0C47;
   color: #fff;
   border: none;
@@ -1770,4 +1771,14 @@ section {
 .login-form a {
   text-decoration: none;
   color: #1A0C47;
+}
+
+.login-form .checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.login-form input[type="checkbox"] {
+  margin-right: 10px;
 }
