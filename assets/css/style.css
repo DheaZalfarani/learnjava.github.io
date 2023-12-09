@@ -57,8 +57,8 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #7ed899;
-  color: #fff;
+  background: #302176;
+  color: #3fbbc0;
 }
 
 .back-to-top.active {
@@ -218,7 +218,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #3fbbc0;
+  color: #fff;
 }
 
 .navbar .dropdown ul {
@@ -1594,7 +1594,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #3fbbc0;
+  color: #fff;
   font-size: 18px;
   line-height: 1;
 }
@@ -1616,11 +1616,6 @@ section {
   line-height: 1;
 }
 
-#footer .footer-top .footer-links ul a:hover {
-  text-decoration: none;
-  color: #3fbbc0;
-}
-
 #footer .footer-newsletter {
   font-size: 15px;
 }
@@ -1631,6 +1626,10 @@ section {
   color: #fff;
   position: relative;
   padding-bottom: 12px;
+}
+
+#footer .footer-newsletter ul li a {
+  color: #fff; 
 }
 
 #footer .footer-newsletter form {
