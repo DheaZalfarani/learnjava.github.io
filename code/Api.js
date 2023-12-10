@@ -59,9 +59,7 @@ app.post("/compile", function (req, res) {
           }
         });
       } else {
-        //if windows
         var envData = { OS: "windows" };
-        //else
         compiler.compileJavaWithInput(envData, code, input, function (data) {
           if (data.output) {
             res.send(data);
