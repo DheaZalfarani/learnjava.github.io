@@ -7,13 +7,13 @@ compiler.init(options);
 app.use(bodyP.json());
 app.use(
   "/codemirror-5.65.9",
-  express.static("E:/Dev/DPB-API/learnjava.github.io/code/codemirror-5.65.16")
+  express.static("C:/laragon/www/learnjava.github.io/code/codemirror-5.65.16")
 );
 app.get("/", function (req, res) {
   compiler.flush(function () {
     console.log("deleted");
   });
-  res.sendFile("E:/Dev/DPB-API/learnjava.github.io/code/index.html");
+  res.sendFile("C:/laragon/www/learnjava.github.io/code/index.html");
 });
 app.post("/compile", function (req, res) {
   var code = req.body.code;
