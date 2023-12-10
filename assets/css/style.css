@@ -217,7 +217,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #fff;
 }
 
@@ -254,11 +254,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #3fbbc0;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -270,7 +270,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -282,7 +282,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -354,7 +354,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #3fbbc0;
 }
 
@@ -389,11 +389,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #3fbbc0;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -579,7 +579,6 @@ h6 {
 }
 
 @media (min-width: 1024px) {
-
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
     width: 5%;
@@ -830,7 +829,7 @@ section {
 
 .courses .course-item {
   width: 400px;
-  height: 250px; 
+  height: 250px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -1444,7 +1443,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1496,7 +1495,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #3fbbc0;
   border: 0;
   padding: 10px 35px;
@@ -1505,7 +1504,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #3ac162;
 }
 
@@ -1629,7 +1628,7 @@ section {
 }
 
 #footer .footer-newsletter ul li a {
-  color: #fff; 
+  color: #fff;
 }
 
 #footer .footer-newsletter form {
@@ -1642,13 +1641,13 @@ section {
   border: 1px solid #e0e5e2;
 }
 
-#footer .footer-newsletter form input[type=email] {
+#footer .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#footer .footer-newsletter form input[type=submit] {
+#footer .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: -1px;
   right: -1px;
@@ -1664,7 +1663,7 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#footer .footer-newsletter form input[type=submit]:hover {
+#footer .footer-newsletter form input[type="submit"]:hover {
   background: #3ac162;
 }
 
@@ -1722,7 +1721,7 @@ section {
 
 .login-form h2 {
   font-weight: bold;
-  color: #1A0C47;
+  color: #1a0c47;
 }
 
 .login-form p.center-text {
@@ -1760,7 +1759,7 @@ section {
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #1A0C47;
+  background-color: #1a0c47;
   color: #fff;
   border: none;
   border-radius: 20px;
@@ -1770,7 +1769,7 @@ section {
 
 .login-form a {
   text-decoration: none;
-  color: #1A0C47;
+  color: #1a0c47;
 }
 
 .login-form .checkbox-container {
@@ -1793,24 +1792,24 @@ section {
 
 .courses .chall-item {
   width: 400px;
-  height: 250px; 
+  height: 250px;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #04CDD6E3;
+  background-color: #04cdd6e3;
   border-radius: 15px;
   margin: 10px;
   height: 300px;
 }
 
 .btn-chall {
-    margin: 10px;
+  margin: 10px;
 }
 
 .btn-chall .btn-challenge {
-  background-color: #3FBBC0;
+  background-color: #3fbbc0;
   margin-bottom: 5px;
   border: none;
 }
@@ -1872,7 +1871,7 @@ section {
 }
 
 .progress-ring-circle {
-  stroke: #1A0C47; /* Warna garis lingkaran */
+  stroke: #1a0c47; /* Warna garis lingkaran */
   fill: none; /* Warna isi lingkaran */
   color: white;
 }
@@ -1881,7 +1880,7 @@ section {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #1A0C47; /* Warna biru untuk tombol "Mulai" */
+  background-color: #1a0c47; /* Warna biru untuk tombol "Mulai" */
   color: white;
   border: none;
   border-radius: 4px;
@@ -1890,4 +1889,33 @@ section {
 
 .start-button:hover {
   background-color: #0e0629; /* Warna biru yang sedikit lebih gelap saat tombol dihover */
+}
+
+/* Challenge Code */
+.chall-name {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 73px;
+  color: #302176;
+}
+
+.chall-title {
+  color: #1a0c47;
+  margin-top: 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Gaya untuk teks 'Studi Kasus: Pengkondisian Boolean' */
+.study-case {
+  color: #1a0c47;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+/* Gaya untuk paragraf */
+.paragraph-justify {
+  text-align: justify;
+  margin-top: 15px;
+  line-height: 1.6;
 }

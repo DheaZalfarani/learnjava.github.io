@@ -1,5 +1,24 @@
 const express = require("express");
+const path = require("path");
 const app = express();
+
+// Menyajikan konten statis dari folder 'assets' yang berada di luar proyek
+app.use(express.static(path.join(__dirname, '../assets')));
+
+app.get("/", function (req, res) {
+  // Mengirimkan file HTML saat rute root diakses
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+app.get("/getDataFromAnotherServer", async (req, res) => {
+  try {
+    const response = await axios.get("http://127.0.0.1:5500/someDataEndpoint");
+    res.json(response.data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 const bodyP = require("body-parser");
 const compiler = require("compilex");
 const options = { stats: true };
@@ -94,4 +113,6 @@ app.post("/compile", function (req, res) {
   }
 });
 
-app.listen(8000);
+app.listen(8000, () => {
+  console.log('Server running on port 8000');
+});
