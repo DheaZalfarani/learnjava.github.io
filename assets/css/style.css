@@ -1784,6 +1784,40 @@ section {
 }
 
 /* Challenge */
+.courses .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.courses .chall-item {
+  width: 400px;
+  height: 250px; 
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #04CDD6E3;
+  border-radius: 15px;
+  margin: 10px;
+  height: 300px;
+}
+
+.btn-chall {
+    margin: 10px;
+}
+
+.btn-chall .btn-challenge {
+  background-color: #3FBBC0;
+  margin-bottom: 5px;
+  border: none;
+}
+
+.challenge-name {
+  font-weight: bold;
+}
 .container-chall {
   display: flex;
   justify-content: center;
